@@ -26,7 +26,7 @@ height = int(input("Height of multiplication table: "))
 
 a = 1
 
-while a < 9:
+while a < height+1:
     for i in range(1,width+1):
         print("{0:>3}".format(i*a), end=" ")
     a += 1
